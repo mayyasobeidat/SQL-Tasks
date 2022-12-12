@@ -2,7 +2,7 @@ CREATE DATABASE TASK;
 
 CREATE TABLE customers (
 
-    customerID int,
+    customerID int not null,
     FirstName varchar(20),
 	LastName varchar(20),
 	Phone numeric,
